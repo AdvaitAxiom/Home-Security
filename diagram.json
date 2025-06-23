@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "author": "Smart Home Anomaly Detection System",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "sound1", "top": 50, "left": 200, "attrs": { "value": "0.5" } },
+    { "type": "wokwi-led", "id": "flame1", "top": 100, "left": 200, "attrs": { "color": "red" } },
+    { "type": "wokwi-pushbutton", "id": "motion1", "top": 150, "left": 200, "attrs": { "color": "green" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": 100, "left": 150, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r2", "top": 150, "left": 150, "attrs": { "value": "10000" } }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    
+    [ "esp:GND.1", "sound1:GND", "black", [] ],
+    [ "esp:3V3", "sound1:VCC", "red", [] ],
+    [ "esp:D34", "sound1:SIG", "green", [] ],
+    
+    [ "esp:D26", "r1:1", "blue", [] ],
+    [ "r1:2", "flame1:A", "blue", [] ],
+    [ "flame1:C", "esp:GND.2", "black", [] ],
+    
+    [ "esp:D27", "r2:1", "yellow", [] ],
+    [ "r2:2", "motion1:1.l", "yellow", [] ],
+    [ "motion1:2.l", "esp:GND.2", "black", [] ],
+    [ "motion1:1.r", "esp:3V3", "red", [] ]
+  ],
+  "dependencies": {}
+}

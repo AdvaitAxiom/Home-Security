@@ -1,0 +1,18 @@
+{
+  "timestamp": "2023-01-01T14:15:00Z",
+  "sensor_data": {
+    "sound_amplitude": 625.45,
+    "flame_detected": 1,
+    "motion_detected": 0
+  },
+  "analysis": {
+    "sound_type": "fire_crackle",
+    "risk_level": "high",
+    "confidence": 0.89
+  },
+  "recommendations": [
+    "Alert authorities immediately",
+    "Possible fire detected",
+    "Evacuate premises if confirmed"
+  ]
+}

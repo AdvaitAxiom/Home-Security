@@ -1,0 +1,18 @@
+{
+  "timestamp": "2023-01-01T16:15:00Z",
+  "sensor_data": {
+    "sound_amplitude": 875.45,
+    "flame_detected": 0,
+    "motion_detected": 1
+  },
+  "analysis": {
+    "sound_type": "human_scream",
+    "risk_level": "high",
+    "confidence": 0.94
+  },
+  "recommendations": [
+    "Alert authorities immediately",
+    "Possible emergency situation",
+    "Check on household members"
+  ]
+}

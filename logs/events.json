@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": "2023-12-01T08:15:30.123Z",
+    "sound_type": "normal",
+    "risk_level": "safe",
+    "sensor_data": {
+      "amplitude": 320,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "confidence": 0.95
+  },
+  {
+    "timestamp": "2023-12-01T12:45:22.456Z",
+    "sound_type": "dog_bark",
+    "risk_level": "low",
+    "sensor_data": {
+      "amplitude": 650,
+      "pattern_id": 10,
+      "flame_detected": false,
+      "motion_detected": true
+    },
+    "confidence": 0.87
+  },
+  {
+    "timestamp": "2023-12-01T18:32:15.789Z",
+    "sound_type": "glass_break",
+    "risk_level": "high",
+    "sensor_data": {
+      "amplitude": 820,
+      "pattern_id": 4,
+      "flame_detected": false,
+      "motion_detected": true
+    },
+    "confidence": 0.92
+  },
+  {
+    "timestamp": "2023-12-01T22:10:05.321Z",
+    "sound_type": "fire_crackle",
+    "risk_level": "high",
+    "sensor_data": {
+      "amplitude": 580,
+      "pattern_id": 6,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "confidence": 0.89
+  },
+  {
+    "timestamp": "2023-12-02T03:25:18.654Z",
+    "sound_type": "human_scream",
+    "risk_level": "high",
+    "sensor_data": {
+      "amplitude": 850,
+      "pattern_id": 8,
+      "flame_detected": false,
+      "motion_detected": true
+    },
+    "confidence": 0.94
+  }
+]

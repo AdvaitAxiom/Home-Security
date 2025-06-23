@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Anomaly Detection System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Smart Home Anomaly Detection System</h1>
+        <p>AI-Powered Sound Source Classification</p>
+    </div>
+
+    <div class="container">
+        <!-- Alert Box for messages -->
+        <div id="alertBox" class="alert"></div>
+
+        <!-- Dashboard Grid -->
+        <div class="dashboard-grid">
+            <!-- Status Panel -->
+            <div class="status-panel">
+                <h2>System Status</h2>
+                <div class="status-item">
+                    <span class="status-label">Server Status:</span>
+                    <span id="serverStatus" class="status-value">Unknown</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">AI Model:</span>
+                    <span id="modelStatus" class="status-value">Unknown</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Last Update:</span>
+                    <span id="lastUpdate" class="status-value">Unknown</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Current Sound:</span>
+                    <span id="currentSound" class="status-value">0</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Pattern ID:</span>
+                    <span id="currentPattern" class="status-value">0</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Flame Detection:</span>
+                    <span id="flameStatus" class="status-value">None</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Motion Detection:</span>
+                    <span id="motionStatus" class="status-value">None</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Sound Type:</span>
+                    <span id="soundType" class="status-value">Unknown</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Risk Level:</span>
+                    <span id="riskIndicator" class="risk-indicator">Unknown</span>
+                </div>
+                <button id="refreshBtn" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">
+                    Refresh Data
+                </button>
+
+                <h3 style="margin-top: 1.5rem;">Recommendations</h3>
+                <div id="recommendations" class="recommendations-container">
+                    <!-- Recommendations will be added here dynamically -->
+                    <div class="recommendation-item">No recommendations available</div>
+                </div>
+            </div>
+
+            <!-- Charts Panel -->
+            <div class="charts-panel">
+                <h2>Sensor Data Visualization</h2>
+                <div class="chart-row">
+                    <div class="chart-col">
+                        <div class="chart-container">
+                            <canvas id="soundChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-col">
+                        <div class="chart-container">
+                            <canvas id="riskChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event Log -->
+            <div class="event-log">
+                <h2>
+                    Event Log
+                    <button id="clearEventsBtn" class="btn btn-danger btn-sm">Clear</button>
+                </h2>
+                <div class="event-log-container">
+                    <div id="eventLogItems">
+                        <!-- Event log items will be added here dynamically -->
+                        <div class="event-item">
+                            <span class="event-time">No events</span>
+                            <span class="event-type"></span>
+                            <span class="event-risk"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simulation Panel -->
+            <div class="simulation-panel">
+                <h2>Simulate Sensor Data</h2>
+                <form id="simulateForm">
+                    <div class="form-group">
+                        <label for="simAmplitude">Sound Amplitude (300-900):</label>
+                        <input type="range" class="form-control" id="simAmplitude" min="300" max="900" value="500">
+                        <output for="simAmplitude" id="amplitudeValue">500</output>
+                    </div>
+                    <div class="form-group">
+                        <label for="simPattern">Sound Pattern ID (0-10):</label>
+                        <select class="form-control" id="simPattern">
+                            <option value="0">0 - Normal (Ambient)</option>
+                            <option value="1">1 - Normal (Conversation)</option>
+                            <option value="2">2 - Normal (TV/Music)</option>
+                            <option value="3">3 - Glass Break (Window)</option>
+                            <option value="4">4 - Glass Break (Object)</option>
+                            <option value="5">5 - Fire Crackle (Small)</option>
+                            <option value="6">6 - Fire Crackle (Medium)</option>
+                            <option value="7">7 - Human Scream (Distant)</option>
+                            <option value="8">8 - Human Scream (Close)</option>
+                            <option value="9">9 - Dog Bark (Small)</option>
+                            <option value="10">10 - Dog Bark (Large)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="simFlame">
+                            <label class="form-check-label" for="simFlame">Flame Detected</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="simMotion">
+                            <label class="form-check-label" for="simMotion">Motion Detected</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Simulate</button>
+                </form>
+
+                <div style="margin-top: 1.5rem;">
+                    <h3>Simulation Guide</h3>
+                    <p>Use this panel to simulate different sensor readings and test the system's response:</p>
+                    <ul>
+                        <li><strong>Normal sounds</strong>: Amplitude 300-500, Pattern ID 0-2</li>
+                        <li><strong>Glass breaks</strong>: Amplitude 700-900, Pattern ID 3-4</li>
+                        <li><strong>Fire crackles</strong>: Amplitude 500-700, Pattern ID 5-6</li>
+                        <li><strong>Human screams</strong>: Amplitude 800-900, Pattern ID 7-8</li>
+                        <li><strong>Dog barks</strong>: Amplitude 600-800, Pattern ID 9-10</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Smart Home Anomaly Detection System &copy; 2023 | AI-Powered Sound Source Classification</p>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+    <script>
+        // Update amplitude value display
+        document.getElementById('simAmplitude').addEventListener('input', function() {
+            document.getElementById('amplitudeValue').textContent = this.value;
+        });
+    </script>
+</body>
+</html>

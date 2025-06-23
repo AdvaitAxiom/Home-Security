@@ -1,0 +1,17 @@
+{
+  "timestamp": "2023-01-01T18:15:00Z",
+  "sensor_data": {
+    "sound_amplitude": 725.45,
+    "flame_detected": 0,
+    "motion_detected": 1
+  },
+  "analysis": {
+    "sound_type": "dog_bark",
+    "risk_level": "medium",
+    "confidence": 0.88
+  },
+  "recommendations": [
+    "Monitor situation closely",
+    "Check for unusual activity"
+  ]
+}

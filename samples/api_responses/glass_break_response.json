@@ -1,0 +1,18 @@
+{
+  "timestamp": "2023-01-01T12:15:00Z",
+  "sensor_data": {
+    "sound_amplitude": 825.45,
+    "flame_detected": 0,
+    "motion_detected": 1
+  },
+  "analysis": {
+    "sound_type": "glass_break",
+    "risk_level": "high",
+    "confidence": 0.92
+  },
+  "recommendations": [
+    "Alert authorities immediately",
+    "Possible break-in detected",
+    "Activate security system"
+  ]
+}

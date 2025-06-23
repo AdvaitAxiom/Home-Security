@@ -1,0 +1,11 @@
+timestamp,amplitude,pattern_id,flame_detected,motion_detected,sound_type
+2023-01-01T16:15:00Z,875.45,7,0,1,human_scream
+2023-01-01T16:25:00Z,892.78,8,0,1,human_scream
+2023-01-01T16:35:00Z,868.92,7,0,1,human_scream
+2023-01-01T16:45:00Z,882.15,8,0,1,human_scream
+2023-01-01T16:55:00Z,876.33,7,0,0,human_scream
+2023-01-01T17:05:00Z,889.67,8,0,1,human_scream
+2023-01-01T17:15:00Z,871.89,7,0,1,human_scream
+2023-01-01T17:25:00Z,888.45,8,0,1,human_scream
+2023-01-01T17:35:00Z,867.12,7,0,1,human_scream
+2023-01-01T17:45:00Z,885.78,8,0,0,human_scream

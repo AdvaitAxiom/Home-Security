@@ -1,0 +1,17 @@
+{
+  "timestamp": "2023-01-01T10:15:00Z",
+  "sensor_data": {
+    "sound_amplitude": 325.45,
+    "flame_detected": 0,
+    "motion_detected": 0
+  },
+  "analysis": {
+    "sound_type": "normal",
+    "risk_level": "low",
+    "confidence": 0.95
+  },
+  "recommendations": [
+    "No immediate action required",
+    "Continue normal monitoring"
+  ]
+}
