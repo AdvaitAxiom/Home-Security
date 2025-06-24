@@ -6,11 +6,12 @@
     <title>Smart Home Anomaly Detection System</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div class="header">
-        <h1>Smart Home Anomaly Detection System</h1>
+        <h1><i class="fas fa-home"></i> Smart Home Anomaly Detection System</h1>
         <p>AI-Powered Sound Source Classification</p>
     </div>
 
@@ -22,48 +23,48 @@
         <div class="dashboard-grid">
             <!-- Status Panel -->
             <div class="status-panel">
-                <h2>System Status</h2>
+                <h2><i class="fas fa-info-circle"></i> System Status</h2>
                 <div class="status-item">
-                    <span class="status-label">Server Status:</span>
+                    <span class="status-label"><i class="fas fa-server"></i> Server Status:</span>
                     <span id="serverStatus" class="status-value">Unknown</span>
                 </div>
                 <div class="status-item">
-                    <span class="status-label">AI Model:</span>
+                    <span class="status-label"><i class="fas fa-brain"></i> AI Model:</span>
                     <span id="modelStatus" class="status-value">Unknown</span>
                 </div>
                 <div class="status-item">
-                    <span class="status-label">Last Update:</span>
+                    <span class="status-label"><i class="fas fa-clock"></i> Last Update:</span>
                     <span id="lastUpdate" class="status-value">Unknown</span>
                 </div>
                 <div class="status-item">
-                    <span class="status-label">Current Sound:</span>
+                    <span class="status-label"><i class="fas fa-volume-up"></i> Current Sound:</span>
                     <span id="currentSound" class="status-value">0</span>
                 </div>
                 <div class="status-item">
-                    <span class="status-label">Pattern ID:</span>
+                    <span class="status-label"><i class="fas fa-fingerprint"></i> Pattern ID:</span>
                     <span id="currentPattern" class="status-value">0</span>
                 </div>
                 <div class="status-item">
-                    <span class="status-label">Flame Detection:</span>
+                    <span class="status-label"><i class="fas fa-fire"></i> Flame Detection:</span>
                     <span id="flameStatus" class="status-value">None</span>
                 </div>
                 <div class="status-item">
-                    <span class="status-label">Motion Detection:</span>
+                    <span class="status-label"><i class="fas fa-running"></i> Motion Detection:</span>
                     <span id="motionStatus" class="status-value">None</span>
                 </div>
                 <div class="status-item">
-                    <span class="status-label">Sound Type:</span>
+                    <span class="status-label"><i class="fas fa-music"></i> Sound Type:</span>
                     <span id="soundType" class="status-value">Unknown</span>
                 </div>
                 <div class="status-item">
-                    <span class="status-label">Risk Level:</span>
+                    <span class="status-label"><i class="fas fa-exclamation-triangle"></i> Risk Level:</span>
                     <span id="riskIndicator" class="risk-indicator">Unknown</span>
                 </div>
                 <button id="refreshBtn" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">
-                    Refresh Data
+                    <i class="fas fa-sync-alt"></i> Refresh Data
                 </button>
 
-                <h3 style="margin-top: 1.5rem;">Recommendations</h3>
+                <h3 style="margin-top: 1.5rem;"><i class="fas fa-lightbulb"></i> Recommendations</h3>
                 <div id="recommendations" class="recommendations-container">
                     <!-- Recommendations will be added here dynamically -->
                     <div class="recommendation-item">No recommendations available</div>
@@ -72,7 +73,7 @@
 
             <!-- Charts Panel -->
             <div class="charts-panel">
-                <h2>Sensor Data Visualization</h2>
+                <h2><i class="fas fa-chart-line"></i> Sensor Data Visualization</h2>
                 <div class="chart-row">
                     <div class="chart-col">
                         <div class="chart-container">
@@ -90,8 +91,8 @@
             <!-- Event Log -->
             <div class="event-log">
                 <h2>
-                    Event Log
-                    <button id="clearEventsBtn" class="btn btn-danger btn-sm">Clear</button>
+                    <i class="fas fa-history"></i> Event Log
+                    <button id="clearEventsBtn" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i> Clear</button>
                 </h2>
                 <div class="event-log-container">
                     <div id="eventLogItems">
@@ -107,15 +108,15 @@
 
             <!-- Simulation Panel -->
             <div class="simulation-panel">
-                <h2>Simulate Sensor Data</h2>
+                <h2><i class="fas fa-sliders-h"></i> Simulate Sensor Data</h2>
                 <form id="simulateForm">
                     <div class="form-group">
-                        <label for="simAmplitude">Sound Amplitude (300-900):</label>
+                        <label for="simAmplitude"><i class="fas fa-wave-square"></i> Sound Amplitude (300-900):</label>
                         <input type="range" class="form-control" id="simAmplitude" min="300" max="900" value="500">
                         <output for="simAmplitude" id="amplitudeValue">500</output>
                     </div>
                     <div class="form-group">
-                        <label for="simPattern">Sound Pattern ID (0-10):</label>
+                        <label for="simPattern"><i class="fas fa-signature"></i> Sound Pattern ID (0-10):</label>
                         <select class="form-control" id="simPattern">
                             <option value="0">0 - Normal (Ambient)</option>
                             <option value="1">1 - Normal (Conversation)</option>
@@ -133,25 +134,27 @@
                     <div class="form-group">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="simFlame">
-                            <label class="form-check-label" for="simFlame">Flame Detected</label>
+                            <label class="form-check-label" for="simFlame"><i class="fas fa-fire-alt"></i> Flame Detected</label>
                         </div>
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="simMotion">
-                            <label class="form-check-label" for="simMotion">Motion Detected</label>
+                            <label class="form-check-label" for="simMotion"><i class="fas fa-walking"></i> Motion Detected</label>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary" style="width: 100%;">Simulate</button>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        <i class="fas fa-play-circle"></i> Simulate
+                    </button>
                 </form>
 
                 <div style="margin-top: 1.5rem;">
-                    <h3>Simulation Guide</h3>
+                    <h3><i class="fas fa-book"></i> Simulation Guide</h3>
                     <p>Use this panel to simulate different sensor readings and test the system's response:</p>
                     <ul>
-                        <li><strong>Normal sounds</strong>: Amplitude 300-500, Pattern ID 0-2</li>
-                        <li><strong>Glass breaks</strong>: Amplitude 700-900, Pattern ID 3-4</li>
-                        <li><strong>Fire crackles</strong>: Amplitude 500-700, Pattern ID 5-6</li>
-                        <li><strong>Human screams</strong>: Amplitude 800-900, Pattern ID 7-8</li>
-                        <li><strong>Dog barks</strong>: Amplitude 600-800, Pattern ID 9-10</li>
+                        <li><strong><i class="fas fa-volume-down"></i> Normal sounds</strong>: Amplitude 300-500, Pattern ID 0-2</li>
+                        <li><strong><i class="fas fa-glass-martini-alt"></i> Glass breaks</strong>: Amplitude 700-900, Pattern ID 3-4</li>
+                        <li><strong><i class="fas fa-fire"></i> Fire crackles</strong>: Amplitude 500-700, Pattern ID 5-6</li>
+                        <li><strong><i class="fas fa-bullhorn"></i> Human screams</strong>: Amplitude 800-900, Pattern ID 7-8</li>
+                        <li><strong><i class="fas fa-dog"></i> Dog barks</strong>: Amplitude 600-800, Pattern ID 9-10</li>
                     </ul>
                 </div>
             </div>
@@ -159,7 +162,7 @@
     </div>
 
     <div class="footer">
-        <p>Smart Home Anomaly Detection System &copy; 2023 | AI-Powered Sound Source Classification</p>
+        <p><i class="fas fa-shield-alt"></i> Smart Home Anomaly Detection System &copy; 2023 | AI-Powered Sound Source Classification</p>
     </div>
 
     <!-- JavaScript -->

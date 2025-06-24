@@ -7,8 +7,8 @@ including API keys, channel IDs, and other settings.
 """
 
 # ThingSpeak configuration
-THINGSPEAK_CHANNEL_ID = "0000000"  # Replace with your ThingSpeak Channel ID
-THINGSPEAK_READ_API_KEY = "YOUR_THINGSPEAK_READ_API_KEY"  # Replace with your ThingSpeak Read API Key
+THINGSPEAK_CHANNEL_ID = " 2996667"  # Replace with your ThingSpeak Channel ID
+THINGSPEAK_READ_API_KEY = "AO72F73QLUVG1MMF"  # Replace with your ThingSpeak Read API Key
 
 # Server configuration
 SERVER_HOST = "0.0.0.0"  # Listen on all available interfaces
