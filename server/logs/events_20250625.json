@@ -1,0 +1,4086 @@
+[
+  {
+    "timestamp": "2025-06-25T00:28:39.586098",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 8,
+      "flame_detected": false,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T00:28:39.589736"
+  },
+  {
+    "timestamp": "2025-06-25T00:29:29.471365",
+    "sensor_data": {
+      "amplitude": 646.0,
+      "pattern_id": 5,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T00:29:29.472365"
+  },
+  {
+    "timestamp": "2025-06-25T00:29:44.177862",
+    "sensor_data": {
+      "amplitude": 382.0,
+      "pattern_id": 5,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T00:29:44.180376"
+  },
+  {
+    "timestamp": "2025-06-24T20:38:51Z",
+    "sensor_data": {
+      "amplitude": 627.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:10:26.756133"
+  },
+  {
+    "timestamp": "2025-06-24T20:38:51Z",
+    "sensor_data": {
+      "amplitude": 627.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:10:36.498429"
+  },
+  {
+    "timestamp": "2025-06-24T20:38:51Z",
+    "sensor_data": {
+      "amplitude": 627.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:10:59.157628"
+  },
+  {
+    "timestamp": "2025-06-24T20:38:51Z",
+    "sensor_data": {
+      "amplitude": 627.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:11:00.381534"
+  },
+  {
+    "timestamp": "2025-06-24T20:38:51Z",
+    "sensor_data": {
+      "amplitude": 627.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:11:27.804010"
+  },
+  {
+    "timestamp": "2025-06-24T20:38:51Z",
+    "sensor_data": {
+      "amplitude": 627.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:11:28.760047"
+  },
+  {
+    "timestamp": "2025-06-24T20:41:55Z",
+    "sensor_data": {
+      "amplitude": 572.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.5,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:11:58.246021"
+  },
+  {
+    "timestamp": "2025-06-24T20:41:55Z",
+    "sensor_data": {
+      "amplitude": 572.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.5,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:11:59.411043"
+  },
+  {
+    "timestamp": "2025-06-24T20:41:55Z",
+    "sensor_data": {
+      "amplitude": 572.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.5,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:12:31.175932"
+  },
+  {
+    "timestamp": "2025-06-24T20:41:55Z",
+    "sensor_data": {
+      "amplitude": 572.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.5,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:12:31.433757"
+  },
+  {
+    "timestamp": "2025-06-24T20:41:55Z",
+    "sensor_data": {
+      "amplitude": 572.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.5,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:12:59.460302"
+  },
+  {
+    "timestamp": "2025-06-24T20:41:55Z",
+    "sensor_data": {
+      "amplitude": 572.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.5,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:13:00.431398"
+  },
+  {
+    "timestamp": "2025-06-24T20:43:01Z",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:13:30.097907"
+  },
+  {
+    "timestamp": "2025-06-24T20:43:01Z",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:13:30.814124"
+  },
+  {
+    "timestamp": "2025-06-24T20:43:01Z",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:14:00.545314"
+  },
+  {
+    "timestamp": "2025-06-24T20:43:01Z",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:14:02.805258"
+  },
+  {
+    "timestamp": "2025-06-24T20:43:01Z",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:14:30.898935"
+  },
+  {
+    "timestamp": "2025-06-24T20:43:01Z",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:14:31.945260"
+  },
+  {
+    "timestamp": "2025-06-24T20:43:01Z",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:15:01.488952"
+  },
+  {
+    "timestamp": "2025-06-24T20:43:01Z",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:15:02.469012"
+  },
+  {
+    "timestamp": "2025-06-24T20:43:01Z",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:15:32.013148"
+  },
+  {
+    "timestamp": "2025-06-24T20:43:01Z",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:15:32.487281"
+  },
+  {
+    "timestamp": "2025-06-24T20:43:01Z",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:16:02.535038"
+  },
+  {
+    "timestamp": "2025-06-24T20:43:01Z",
+    "sensor_data": {
+      "amplitude": 772.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:16:04.604730"
+  },
+  {
+    "timestamp": "2025-06-24T20:46:24Z",
+    "sensor_data": {
+      "amplitude": 353.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:16:32.766794"
+  },
+  {
+    "timestamp": "2025-06-24T20:46:24Z",
+    "sensor_data": {
+      "amplitude": 353.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:16:33.217310"
+  },
+  {
+    "timestamp": "2025-06-24T20:46:24Z",
+    "sensor_data": {
+      "amplitude": 353.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:17:03.554340"
+  },
+  {
+    "timestamp": "2025-06-24T20:46:24Z",
+    "sensor_data": {
+      "amplitude": 353.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:17:03.574575"
+  },
+  {
+    "timestamp": "2025-06-24T20:46:24Z",
+    "sensor_data": {
+      "amplitude": 353.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:17:34.970598"
+  },
+  {
+    "timestamp": "2025-06-24T20:46:24Z",
+    "sensor_data": {
+      "amplitude": 353.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:17:35.368327"
+  },
+  {
+    "timestamp": "2025-06-24T20:46:24Z",
+    "sensor_data": {
+      "amplitude": 353.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:18:04.565438"
+  },
+  {
+    "timestamp": "2025-06-24T20:46:24Z",
+    "sensor_data": {
+      "amplitude": 353.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:18:34.724074"
+  },
+  {
+    "timestamp": "2025-06-24T20:46:24Z",
+    "sensor_data": {
+      "amplitude": 353.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:18:34.982123"
+  },
+  {
+    "timestamp": "2025-06-24T20:46:24Z",
+    "sensor_data": {
+      "amplitude": 353.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:19:06.105686"
+  },
+  {
+    "timestamp": "2025-06-24T20:46:24Z",
+    "sensor_data": {
+      "amplitude": 353.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:19:06.960051"
+  },
+  {
+    "timestamp": "2025-06-24T20:49:14Z",
+    "sensor_data": {
+      "amplitude": 889.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities."
+      ]
+    },
+    "logged_at": "2025-06-25T02:19:34.743899"
+  },
+  {
+    "timestamp": "2025-06-24T20:49:14Z",
+    "sensor_data": {
+      "amplitude": 889.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities."
+      ]
+    },
+    "logged_at": "2025-06-25T02:19:36.034826"
+  },
+  {
+    "timestamp": "2025-06-24T20:49:14Z",
+    "sensor_data": {
+      "amplitude": 889.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities."
+      ]
+    },
+    "logged_at": "2025-06-25T02:20:05.614400"
+  },
+  {
+    "timestamp": "2025-06-24T20:49:14Z",
+    "sensor_data": {
+      "amplitude": 889.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities."
+      ]
+    },
+    "logged_at": "2025-06-25T02:20:06.393562"
+  },
+  {
+    "timestamp": "2025-06-24T20:50:23Z",
+    "sensor_data": {
+      "amplitude": 862.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:20:37.059648"
+  },
+  {
+    "timestamp": "2025-06-24T20:50:23Z",
+    "sensor_data": {
+      "amplitude": 862.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:20:38.781597"
+  },
+  {
+    "timestamp": "2025-06-24T20:50:23Z",
+    "sensor_data": {
+      "amplitude": 862.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:21:05.647563"
+  },
+  {
+    "timestamp": "2025-06-24T20:50:23Z",
+    "sensor_data": {
+      "amplitude": 862.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:21:07.563204"
+  },
+  {
+    "timestamp": "2025-06-24T20:50:23Z",
+    "sensor_data": {
+      "amplitude": 862.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:21:35.653058"
+  },
+  {
+    "timestamp": "2025-06-24T20:50:23Z",
+    "sensor_data": {
+      "amplitude": 862.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:21:38.110523"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:22:07.188861"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:22:08.421096"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:22:14.747029"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:22:40.100936"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:22:44.909257"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:23:09.433113"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:23:15.202881"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:23:39.883544"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:23:47.146330"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:24:10.382640"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:24:15.844030"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:24:42.138963"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:24:47.889457"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:25:11.204772"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:25:16.148169"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:25:19.634180"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:25:43.603739"
+  },
+  {
+    "timestamp": "2025-06-24T20:51:57Z",
+    "sensor_data": {
+      "amplitude": 802.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:25:48.480236"
+  },
+  {
+    "timestamp": "2025-06-24T20:55:45Z",
+    "sensor_data": {
+      "amplitude": 628.0,
+      "pattern_id": 2,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:26:12.533858"
+  },
+  {
+    "timestamp": "2025-06-24T20:55:45Z",
+    "sensor_data": {
+      "amplitude": 628.0,
+      "pattern_id": 2,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:26:19.012425"
+  },
+  {
+    "timestamp": "2025-06-24T20:56:36Z",
+    "sensor_data": {
+      "amplitude": 896.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities."
+      ]
+    },
+    "logged_at": "2025-06-25T02:26:42.986237"
+  },
+  {
+    "timestamp": "2025-06-24T20:56:36Z",
+    "sensor_data": {
+      "amplitude": 896.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities."
+      ]
+    },
+    "logged_at": "2025-06-25T02:26:50.851954"
+  },
+  {
+    "timestamp": "2025-06-24T20:56:36Z",
+    "sensor_data": {
+      "amplitude": 896.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities."
+      ]
+    },
+    "logged_at": "2025-06-25T02:27:15.263833"
+  },
+  {
+    "timestamp": "2025-06-24T20:56:36Z",
+    "sensor_data": {
+      "amplitude": 896.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities."
+      ]
+    },
+    "logged_at": "2025-06-25T02:27:19.444094"
+  },
+  {
+    "timestamp": "2025-06-24T20:57:29Z",
+    "sensor_data": {
+      "amplitude": 789.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:27:41.229577"
+  },
+  {
+    "timestamp": "2025-06-24T20:57:29Z",
+    "sensor_data": {
+      "amplitude": 789.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:27:43.925959"
+  },
+  {
+    "timestamp": "2025-06-25T02:28:04.659187",
+    "sensor_data": {
+      "amplitude": 811.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities."
+      ]
+    },
+    "logged_at": "2025-06-25T02:28:04.659187"
+  },
+  {
+    "timestamp": "2025-06-24T20:57:29Z",
+    "sensor_data": {
+      "amplitude": 789.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:28:11.225070"
+  },
+  {
+    "timestamp": "2025-06-25T02:28:12.363618",
+    "sensor_data": {
+      "amplitude": 300.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:28:12.363618"
+  },
+  {
+    "timestamp": "2025-06-24T20:57:29Z",
+    "sensor_data": {
+      "amplitude": 789.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:28:14.235824"
+  },
+  {
+    "timestamp": "2025-06-24T20:57:29Z",
+    "sensor_data": {
+      "amplitude": 789.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:28:41.227619"
+  },
+  {
+    "timestamp": "2025-06-24T20:57:29Z",
+    "sensor_data": {
+      "amplitude": 789.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:28:46.149595"
+  },
+  {
+    "timestamp": "2025-06-24T20:57:29Z",
+    "sensor_data": {
+      "amplitude": 789.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:29:11.251193"
+  },
+  {
+    "timestamp": "2025-06-24T20:57:29Z",
+    "sensor_data": {
+      "amplitude": 789.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:29:14.963880"
+  },
+  {
+    "timestamp": "2025-06-24T20:57:29Z",
+    "sensor_data": {
+      "amplitude": 789.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:29:42.745413"
+  },
+  {
+    "timestamp": "2025-06-24T20:57:29Z",
+    "sensor_data": {
+      "amplitude": 789.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:29:45.539781"
+  },
+  {
+    "timestamp": "2025-06-24T20:59:49Z",
+    "sensor_data": {
+      "amplitude": 783.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:30:11.807656"
+  },
+  {
+    "timestamp": "2025-06-24T21:00:11Z",
+    "sensor_data": {
+      "amplitude": 623.0,
+      "pattern_id": 2,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:30:16.010950"
+  },
+  {
+    "timestamp": "2025-06-24T21:00:33Z",
+    "sensor_data": {
+      "amplitude": 758.0,
+      "pattern_id": 3,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:30:42.388804"
+  },
+  {
+    "timestamp": "2025-06-24T21:00:33Z",
+    "sensor_data": {
+      "amplitude": 758.0,
+      "pattern_id": 3,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:30:46.560625"
+  },
+  {
+    "timestamp": "2025-06-24T21:00:54Z",
+    "sensor_data": {
+      "amplitude": 814.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:31:14.411140"
+  },
+  {
+    "timestamp": "2025-06-24T21:00:54Z",
+    "sensor_data": {
+      "amplitude": 814.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:31:17.037395"
+  },
+  {
+    "timestamp": "2025-06-24T21:01:16Z",
+    "sensor_data": {
+      "amplitude": 560.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:31:42.967037"
+  },
+  {
+    "timestamp": "2025-06-24T21:01:16Z",
+    "sensor_data": {
+      "amplitude": 560.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:31:47.524019"
+  },
+  {
+    "timestamp": "2025-06-24T21:01:57Z",
+    "sensor_data": {
+      "amplitude": 784.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:32:13.670588"
+  },
+  {
+    "timestamp": "2025-06-24T21:01:57Z",
+    "sensor_data": {
+      "amplitude": 784.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:32:17.954420"
+  },
+  {
+    "timestamp": "2025-06-24T21:02:20Z",
+    "sensor_data": {
+      "amplitude": 602.0,
+      "pattern_id": 4,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:32:45.570387"
+  },
+  {
+    "timestamp": "2025-06-24T21:02:20Z",
+    "sensor_data": {
+      "amplitude": 602.0,
+      "pattern_id": 4,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:32:48.428312"
+  },
+  {
+    "timestamp": "2025-06-24T21:02:20Z",
+    "sensor_data": {
+      "amplitude": 602.0,
+      "pattern_id": 4,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:33:14.909779"
+  },
+  {
+    "timestamp": "2025-06-24T21:03:10Z",
+    "sensor_data": {
+      "amplitude": 642.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:33:20.821028"
+  },
+  {
+    "timestamp": "2025-06-24T21:03:10Z",
+    "sensor_data": {
+      "amplitude": 642.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:33:45.480143"
+  },
+  {
+    "timestamp": "2025-06-24T21:03:10Z",
+    "sensor_data": {
+      "amplitude": 642.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:33:50.330357"
+  },
+  {
+    "timestamp": "2025-06-24T21:03:10Z",
+    "sensor_data": {
+      "amplitude": 642.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:34:16.053059"
+  },
+  {
+    "timestamp": "2025-06-24T21:03:10Z",
+    "sensor_data": {
+      "amplitude": 642.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:34:19.739825"
+  },
+  {
+    "timestamp": "2025-06-24T21:03:10Z",
+    "sensor_data": {
+      "amplitude": 642.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:34:46.579884"
+  },
+  {
+    "timestamp": "2025-06-24T21:03:10Z",
+    "sensor_data": {
+      "amplitude": 642.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:34:50.201650"
+  },
+  {
+    "timestamp": "2025-06-24T21:03:10Z",
+    "sensor_data": {
+      "amplitude": 642.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:35:17.143574"
+  },
+  {
+    "timestamp": "2025-06-24T21:03:10Z",
+    "sensor_data": {
+      "amplitude": 642.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:35:20.736879"
+  },
+  {
+    "timestamp": "2025-06-24T21:05:41Z",
+    "sensor_data": {
+      "amplitude": 754.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:35:47.629356"
+  },
+  {
+    "timestamp": "2025-06-24T21:05:41Z",
+    "sensor_data": {
+      "amplitude": 754.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:35:51.473650"
+  },
+  {
+    "timestamp": "2025-06-24T21:05:41Z",
+    "sensor_data": {
+      "amplitude": 754.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:36:18.093228"
+  },
+  {
+    "timestamp": "2025-06-24T21:05:41Z",
+    "sensor_data": {
+      "amplitude": 754.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:36:21.679583"
+  },
+  {
+    "timestamp": "2025-06-24T21:05:41Z",
+    "sensor_data": {
+      "amplitude": 754.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:36:48.682973"
+  },
+  {
+    "timestamp": "2025-06-24T21:05:41Z",
+    "sensor_data": {
+      "amplitude": 754.0,
+      "pattern_id": 3,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:36:52.161348"
+  },
+  {
+    "timestamp": "2025-06-24T21:06:57Z",
+    "sensor_data": {
+      "amplitude": 340.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:37:19.294383"
+  },
+  {
+    "timestamp": "2025-06-24T21:07:16Z",
+    "sensor_data": {
+      "amplitude": 309.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:37:23.974316"
+  },
+  {
+    "timestamp": "2025-06-24T21:07:16Z",
+    "sensor_data": {
+      "amplitude": 309.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:37:49.418878"
+  },
+  {
+    "timestamp": "2025-06-24T21:07:16Z",
+    "sensor_data": {
+      "amplitude": 309.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:37:53.143810"
+  },
+  {
+    "timestamp": "2025-06-24T21:07:16Z",
+    "sensor_data": {
+      "amplitude": 309.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:38:21.048801"
+  },
+  {
+    "timestamp": "2025-06-24T21:07:16Z",
+    "sensor_data": {
+      "amplitude": 309.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:38:23.552860"
+  },
+  {
+    "timestamp": "2025-06-24T21:07:16Z",
+    "sensor_data": {
+      "amplitude": 309.0,
+      "pattern_id": 0,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "low",
+      "confidence": 0.8,
+      "recommendations": [
+        "Low risk situation. Normal conditions detected."
+      ]
+    },
+    "logged_at": "2025-06-25T02:38:49.734814"
+  },
+  {
+    "timestamp": "2025-06-24T21:08:50Z",
+    "sensor_data": {
+      "amplitude": 864.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "glass_break",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible break-in detected. Check windows and doors.",
+        "Consider contacting security or authorities.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:38:56.716710"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:39:19.748801"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:39:24.566691"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:39:49.738587"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:39:55.098613"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:40:20.242097"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:40:25.592900"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:40:50.513072"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:40:56.043355"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:41:20.829878"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:41:26.475768"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:41:48.057726"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:41:58.854958"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:42:16.182720"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:42:27.321942"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:42:46.877511"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:42:50.953440"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:42:57.651277"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:43:21.577411"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:43:29.250232"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:43:53.175041"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:43:58.482747"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:44:10.538448"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:44:28.973675"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:44:40.909023"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:44:59.481007"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:45:12.686992"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:45:29.843370"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:45:41.396772"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected! Check for fire immediately.",
+        "Motion detected in conjunction with unusual sounds. Investigate."
+      ]
+    },
+    "logged_at": "2025-06-25T02:46:00.366826"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "Verify if fire detection system is functioning properly.",
+        "Motion detected in conjunction with unusual sounds. Investigate immediately."
+      ]
+    },
+    "logged_at": "2025-06-25T02:46:11.764851"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "Verify if fire detection system is functioning properly.",
+        "Motion detected in conjunction with unusual sounds. Investigate immediately.",
+        "Glass break pattern (ID: 4) detected in ThingSpeak data. Check for security breaches."
+      ]
+    },
+    "logged_at": "2025-06-25T02:46:30.707719"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "Verify if fire detection system is functioning properly.",
+        "Motion detected in conjunction with unusual sounds. Investigate immediately.",
+        "Glass break pattern (ID: 4) detected in ThingSpeak data. Check for security breaches."
+      ]
+    },
+    "logged_at": "2025-06-25T02:46:42.096869"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "Verify if fire detection system is functioning properly.",
+        "Motion detected in conjunction with unusual sounds. Investigate immediately.",
+        "Glass break pattern (ID: 4) detected in ThingSpeak data. Check for security breaches."
+      ]
+    },
+    "logged_at": "2025-06-25T02:47:02.340981"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "High risk situation detected! Immediate attention required.",
+        "Possible fire detected. Check for signs of fire.",
+        "Prepare for evacuation if necessary.",
+        "ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "Verify if fire detection system is functioning properly.",
+        "Motion detected in conjunction with unusual sounds. Investigate immediately.",
+        "Glass break pattern (ID: 4) detected in ThingSpeak data. Check for security breaches."
+      ]
+    },
+    "logged_at": "2025-06-25T02:47:13.891732"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd0d Possible break-in detected. Check windows and doors immediately.",
+        "\ud83d\udcf1 Consider contacting security or authorities.",
+        "\ud83d\udc64 Motion detected with glass break sound - potential intruder in the house!"
+      ]
+    },
+    "logged_at": "2025-06-25T02:47:31.485118"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd0d Possible break-in detected. Check windows and doors immediately.",
+        "\ud83d\udcf1 Consider contacting security or authorities.",
+        "\ud83d\udc64 Motion detected with glass break sound - potential intruder in the house!"
+      ]
+    },
+    "logged_at": "2025-06-25T02:47:42.710900"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd0d Possible break-in detected. Check windows and doors immediately.",
+        "\ud83d\udcf1 Consider contacting security or authorities.",
+        "\ud83d\udc64 Motion detected with glass break sound - potential intruder in the house!"
+      ]
+    },
+    "logged_at": "2025-06-25T02:48:03.576141"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd0d Possible break-in detected. Check windows and doors immediately.",
+        "\ud83d\udcf1 Consider contacting security or authorities.",
+        "\ud83d\udc64 Motion detected with glass break sound - potential intruder in the house!"
+      ]
+    },
+    "logged_at": "2025-06-25T02:48:04.467930"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd0d Possible break-in detected. Check windows and doors immediately.",
+        "\ud83d\udcf1 Consider contacting security or authorities.",
+        "\ud83d\udc64 Motion detected with glass break sound - potential intruder in the house!"
+      ]
+    },
+    "logged_at": "2025-06-25T02:48:32.296027"
+  },
+  {
+    "timestamp": "2025-06-24T21:09:11Z",
+    "sensor_data": {
+      "amplitude": 625.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd0d Possible break-in detected. Check windows and doors immediately.",
+        "\ud83d\udcf1 Consider contacting security or authorities.",
+        "\ud83d\udc64 Motion detected with glass break sound - potential intruder in the house!"
+      ]
+    },
+    "logged_at": "2025-06-25T02:48:36.798186"
+  },
+  {
+    "timestamp": "2025-06-24T21:18:43Z",
+    "sensor_data": {
+      "amplitude": 660.0,
+      "pattern_id": 4,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd0d Possible break-in detected. Check windows and doors immediately.",
+        "\ud83d\udcf1 Consider contacting security or authorities."
+      ]
+    },
+    "logged_at": "2025-06-25T02:49:02.809749"
+  },
+  {
+    "timestamp": "2025-06-24T21:18:43Z",
+    "sensor_data": {
+      "amplitude": 660.0,
+      "pattern_id": 4,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd0d Possible break-in detected. Check windows and doors immediately.",
+        "\ud83d\udcf1 Consider contacting security or authorities."
+      ]
+    },
+    "logged_at": "2025-06-25T02:49:05.550043"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:49:34.918436"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:49:35.795924"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:50:03.687994"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:50:05.801917"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:50:27.090138"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:50:34.178689"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:50:57.049259"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:51:04.605649"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:51:28.748497"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:51:35.148781"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:51:58.054998"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:52:05.641705"
+  },
+  {
+    "timestamp": "2025-06-24T21:19:03Z",
+    "sensor_data": {
+      "amplitude": 752.0,
+      "pattern_id": 1,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary."
+      ]
+    },
+    "logged_at": "2025-06-25T02:52:29.025190"
+  },
+  {
+    "timestamp": "2025-06-24T21:22:33Z",
+    "sensor_data": {
+      "amplitude": 798.0,
+      "pattern_id": 1,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 Possible fire detected. Check for signs of fire immediately.",
+        "\ud83d\udeaa Prepare for evacuation if necessary.",
+        "\ud83d\udea8 CRITICAL: Both flame sensor and fire sounds detected - fire confirmed!"
+      ]
+    },
+    "logged_at": "2025-06-25T02:52:38.108920"
+  },
+  {
+    "timestamp": "2025-06-24T21:22:57Z",
+    "sensor_data": {
+      "amplitude": 674.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd0d Possible break-in detected. Check windows and doors immediately.",
+        "\ud83d\udcf1 Consider contacting security or authorities.",
+        "\ud83d\udc64 Motion detected with glass break sound - potential intruder in the house!"
+      ]
+    },
+    "logged_at": "2025-06-25T02:53:01.642847"
+  },
+  {
+    "timestamp": "2025-06-24T21:22:57Z",
+    "sensor_data": {
+      "amplitude": 674.0,
+      "pattern_id": 4,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd0d Possible break-in detected. Check windows and doors immediately.",
+        "\ud83d\udcf1 Consider contacting security or authorities.",
+        "\ud83d\udc64 Motion detected with glass break sound - potential intruder in the house!"
+      ]
+    },
+    "logged_at": "2025-06-25T02:53:06.609906"
+  },
+  {
+    "timestamp": "2025-06-24T21:23:21Z",
+    "sensor_data": {
+      "amplitude": 647.0,
+      "pattern_id": 4,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd0d Possible break-in detected. Check windows and doors immediately.",
+        "\ud83d\udcf1 Consider contacting security or authorities."
+      ]
+    },
+    "logged_at": "2025-06-25T02:53:30.272912"
+  },
+  {
+    "timestamp": "2025-06-24T21:23:21Z",
+    "sensor_data": {
+      "amplitude": 647.0,
+      "pattern_id": 4,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\ud83d\udd34 ThingSpeak detected GLASS BREAK pattern (ID: 4)",
+        "\ud83d\udd0d Check windows and doors immediately for signs of break-in.",
+        "\u23f0 Unusual activity detected during nighttime hours (2:00).",
+        "\ud83d\udd26 Consider checking your property with caution."
+      ]
+    },
+    "logged_at": "2025-06-25T02:53:39.334364"
+  },
+  {
+    "timestamp": "2025-06-24T21:23:41Z",
+    "sensor_data": {
+      "amplitude": 614.0,
+      "pattern_id": 2,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "fire_crackle",
+      "risk_level": "high",
+      "confidence": 0.6,
+      "recommendations": [
+        "\ud83d\udfe2 ThingSpeak detected NORMAL SOUND pattern (ID: 2)",
+        "\u2705 Normal sound levels detected in ThingSpeak data.",
+        "\u23f0 Unusual activity detected during nighttime hours (2:00).",
+        "\ud83d\udd26 Consider checking your property with caution."
+      ]
+    },
+    "logged_at": "2025-06-25T02:54:02.158776"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\ud83d\udfe2 ThingSpeak detected NORMAL SOUND pattern (ID: 2)",
+        "\u2705 Normal sound levels detected in ThingSpeak data.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly.",
+        "\ud83d\udeb6 Motion detected in ThingSpeak with sound level 526.0."
+      ]
+    },
+    "logged_at": "2025-06-25T02:54:08.698870"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\ud83d\udfe2 ThingSpeak detected NORMAL SOUND pattern (ID: 2)",
+        "\u2705 Normal sound levels detected in ThingSpeak data.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly.",
+        "\ud83d\udeb6 Motion detected in ThingSpeak with sound level 526.0."
+      ]
+    },
+    "logged_at": "2025-06-25T02:54:31.634639"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\ud83d\udfe2 ThingSpeak detected NORMAL SOUND pattern (ID: 2)",
+        "\u2705 Normal sound levels detected in ThingSpeak data.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly.",
+        "\ud83d\udeb6 Motion detected in ThingSpeak with sound level 526.0."
+      ]
+    },
+    "logged_at": "2025-06-25T02:54:38.136918"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\ud83d\udfe2 ThingSpeak detected NORMAL SOUND pattern (ID: 2)",
+        "\u2705 Normal sound levels detected in ThingSpeak data.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly.",
+        "\ud83d\udeb6 Motion detected in ThingSpeak with sound level 526.0."
+      ]
+    },
+    "logged_at": "2025-06-25T02:55:02.415042"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\ud83d\udfe2 ThingSpeak detected NORMAL SOUND pattern (ID: 2)",
+        "\u2705 Normal sound levels detected in ThingSpeak data.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly.",
+        "\ud83d\udeb6 Motion detected in ThingSpeak with sound level 526.0."
+      ]
+    },
+    "logged_at": "2025-06-25T02:55:08.605437"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\ud83d\udfe2 ThingSpeak detected NORMAL SOUND pattern (ID: 2)",
+        "\u2705 Normal sound levels detected in ThingSpeak data.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly.",
+        "\ud83d\udeb6 Motion detected in ThingSpeak with sound level 526.0."
+      ]
+    },
+    "logged_at": "2025-06-25T02:55:32.425793"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\ud83d\udfe2 ThingSpeak detected NORMAL SOUND pattern (ID: 2)",
+        "\u2705 Normal sound levels detected in ThingSpeak data.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly.",
+        "\ud83d\udeb6 Motion detected in ThingSpeak with sound level 526.0."
+      ]
+    },
+    "logged_at": "2025-06-25T02:55:33.186298"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\ud83d\udfe2 ThingSpeak detected NORMAL SOUND pattern (ID: 2)",
+        "\u2705 Normal sound levels detected in ThingSpeak data.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly.",
+        "\ud83d\udeb6 Motion detected in ThingSpeak with sound level 526.0."
+      ]
+    },
+    "logged_at": "2025-06-25T02:55:39.102053"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly."
+      ]
+    },
+    "logged_at": "2025-06-25T02:55:58.101321"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly."
+      ]
+    },
+    "logged_at": "2025-06-25T02:56:09.722083"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly."
+      ]
+    },
+    "logged_at": "2025-06-25T02:56:28.104071"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly."
+      ]
+    },
+    "logged_at": "2025-06-25T02:56:40.167306"
+  },
+  {
+    "timestamp": "2025-06-25T02:56:42.243693",
+    "sensor_data": {
+      "amplitude": 688.0,
+      "pattern_id": 10,
+      "flame_detected": false,
+      "motion_detected": false
+    },
+    "analysis": {
+      "sound_type": "dog_bark",
+      "risk_level": "medium",
+      "confidence": 0.6,
+      "recommendations": [
+        "\u26a0\ufe0f Medium risk situation detected in ThingSpeak data. Attention recommended.",
+        "\ud83d\udc15 Unusual dog barking detected. Check for disturbances.",
+        "\ud83d\udc40 Motion detected with dog barking - someone may be near your property.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly."
+      ]
+    },
+    "logged_at": "2025-06-25T02:56:43.763660"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly."
+      ]
+    },
+    "logged_at": "2025-06-25T02:56:58.113806"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly."
+      ]
+    },
+    "logged_at": "2025-06-25T02:57:10.808489"
+  },
+  {
+    "timestamp": "2025-06-24T21:24:02Z",
+    "sensor_data": {
+      "amplitude": 526.0,
+      "pattern_id": 2,
+      "flame_detected": true,
+      "motion_detected": true
+    },
+    "analysis": {
+      "sound_type": "normal",
+      "risk_level": "high",
+      "confidence": 0.5,
+      "recommendations": [
+        "\u26a0\ufe0f HIGH RISK situation detected in ThingSpeak data! Immediate attention required.",
+        "\ud83d\udd25 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.",
+        "\ud83e\uddef Verify if fire detection system is functioning properly."
+      ]
+    },
+    "logged_at": "2025-06-25T02:57:29.658297"
+  }
+]

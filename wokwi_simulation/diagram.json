@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "author": "Smart Home Security Simulation",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": 131.4, "left": 89.2, "attrs": {} },
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 119.9, "left": -177.8, "attrs": {} },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "soundSensor",
+      "top": 363.5,
+      "left": -77,
+      "attrs": { "value": "0.5" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "flameLED",
+      "top": 332.4,
+      "left": 42.2,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "motionButton",
+      "top": 419,
+      "left": -201.6,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-lcd2004",
+      "id": "lcd1",
+      "top": -108.8,
+      "left": -13.6,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "esp:3V3", "soundSensor:VCC", "red", [] ],
+    [ "esp:GND.1", "soundSensor:GND", "black", [] ],
+    [ "esp:D34", "soundSensor:SIG", "green", [] ],
+    [ "esp:GND.2", "flameLED:C", "black", [] ],
+    [ "esp:D26", "flameLED:A", "red", [] ],
+    [ "esp:3V3", "motionButton:1.r", "red", [] ],
+    [ "esp:GND.2", "motionButton:2.r", "black", [] ],
+    [ "esp:D27", "motionButton:1.l", "blue", [] ],
+    [ "esp:GND.1", "bb1:bn.1", "black", [ "h0" ] ],
+    [ "esp:3V3", "bb1:bp.1", "green", [ "v48", "h191.7" ] ],
+    [ "lcd1:VCC", "bb1:bp.2", "red", [ "v153.7", "h142.4" ] ],
+    [ "lcd1:GND", "bb1:bn.3", "black", [ "v182.4", "h152" ] ],
+    [ "lcd1:SDA", "esp:D21", "green", [ "h0" ] ],
+    [ "lcd1:SCL", "esp:D22", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}

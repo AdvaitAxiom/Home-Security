@@ -112,9 +112,9 @@ def fetch_thingspeak_data():
             latest_data = {
                 'timestamp': feed.get('created_at'),
                 'sound_amplitude': float(feed.get('field1', 0)),
-                'pattern_id': int(float(feed.get('field2', 0))),
-                'flame_detected': int(float(feed.get('field3', 0))) == 1,
-                'motion_detected': int(float(feed.get('field4', 0))) == 1
+                'pattern_id': int(float(feed.get('field4', 0))),
+                'flame_detected': int(float(feed.get('field2', 0))) == 1,
+                'motion_detected': int(float(feed.get('field3', 0))) == 1
             }
             last_fetch_time = current_time
             
@@ -232,7 +232,7 @@ def status():
 
 def get_recommendations(sound_type, risk_level, flame_detected, motion_detected):
     """
-    Generate recommendations based on the analysis results
+    Generate recommendations based on the analysis results from ThingSpeak data
     
     Args:
         sound_type (str): The type of sound detected
@@ -245,38 +245,63 @@ def get_recommendations(sound_type, risk_level, flame_detected, motion_detected)
     """
     recommendations = []
     
-    # Base recommendations on risk level
-    if risk_level == 'high':
-        recommendations.append("High risk situation detected! Immediate attention required.")
+    # Get the latest ThingSpeak data to ensure recommendations are based on current data
+    thingspeak_data = fetch_thingspeak_data()
+    if thingspeak_data is None:
+        # Fallback if ThingSpeak data is not available
+        recommendations.append("Unable to fetch ThingSpeak data. Recommendations may not be accurate.")
+    else:
+        # Extract data from ThingSpeak
+        ts_pattern_id = thingspeak_data.get('pattern_id', 0)
+        ts_sound_amplitude = thingspeak_data.get('sound_amplitude', 0)
+        ts_flame_detected = thingspeak_data.get('flame_detected', False)
+        ts_motion_detected = thingspeak_data.get('motion_detected', False)
         
-        # Specific recommendations based on sound type
-        if sound_type == 'glass_break':
-            recommendations.append("Possible break-in detected. Check windows and doors.")
-            recommendations.append("Consider contacting security or authorities.")
+        # Base recommendations on risk level
+        if risk_level == 'high':
+            recommendations.append("⚠️ HIGH RISK situation detected in ThingSpeak data! Immediate attention required.")
+            
+            # Specific recommendations based on sound type and pattern ID
+            if sound_type == 'glass_break' or (ts_pattern_id >= 3 and ts_pattern_id <= 4):
+                recommendations.append("🔍 Possible break-in detected. Check windows and doors immediately.")
+                recommendations.append("📱 Consider contacting security or authorities.")
+                if ts_motion_detected:
+                    recommendations.append("👤 Motion detected with glass break sound - potential intruder in the house!")
+            
+            elif sound_type == 'fire_crackle' or (ts_pattern_id >= 5 and ts_pattern_id <= 6):
+                recommendations.append("🔥 Possible fire detected. Check for signs of fire immediately.")
+                recommendations.append("🚪 Prepare for evacuation if necessary.")
+                if ts_flame_detected:
+                    recommendations.append("🚨 CRITICAL: Both flame sensor and fire sounds detected - fire confirmed!")
+            
+            elif sound_type == 'human_scream' or (ts_pattern_id >= 7 and ts_pattern_id <= 8):
+                recommendations.append("🆘 Distress call detected. Check for people in need of help.")
+                recommendations.append("🚑 Consider contacting emergency services.")
+                if ts_motion_detected:
+                    recommendations.append("⚡ Motion detected with screams - someone may be in danger!")
         
-        elif sound_type == 'fire_crackle':
-            recommendations.append("Possible fire detected. Check for signs of fire.")
-            recommendations.append("Prepare for evacuation if necessary.")
+        elif risk_level == 'medium':
+            recommendations.append("⚠️ Medium risk situation detected in ThingSpeak data. Attention recommended.")
+            
+            if sound_type == 'dog_bark' or (ts_pattern_id >= 9 and ts_pattern_id <= 10):
+                recommendations.append("🐕 Unusual dog barking detected. Check for disturbances.")
+                if ts_motion_detected:
+                    recommendations.append("👀 Motion detected with dog barking - someone may be near your property.")
         
-        elif sound_type == 'human_scream':
-            recommendations.append("Distress call detected. Check for people in need of help.")
-            recommendations.append("Consider contacting emergency services.")
-    
-    elif risk_level == 'medium':
-        recommendations.append("Medium risk situation detected. Attention recommended.")
+        elif risk_level == 'low':
+            recommendations.append("✅ Low risk situation. Normal conditions detected in ThingSpeak data.")
+            if ts_sound_amplitude > 700:
+                recommendations.append("🔊 Sound levels are higher than normal. May be worth checking.")
         
-        if sound_type == 'dog_bark':
-            recommendations.append("Unusual dog barking detected. Check for disturbances.")
-    
-    elif risk_level == 'low':
-        recommendations.append("Low risk situation. Normal conditions detected.")
-    
-    # Additional recommendations based on sensor data
-    if flame_detected:
-        recommendations.append("ALERT: Flame detected! Check for fire immediately.")
-    
-    if motion_detected and (risk_level == 'high' or risk_level == 'medium'):
-        recommendations.append("Motion detected in conjunction with unusual sounds. Investigate.")
+        # Additional recommendations based on ThingSpeak sensor data
+        if ts_flame_detected and not (sound_type == 'fire_crackle' or (ts_pattern_id >= 5 and ts_pattern_id <= 6)):
+            recommendations.append("🔥 ALERT: Flame detected in ThingSpeak data! Check for fire immediately.")
+            recommendations.append("🧯 Verify if fire detection system is functioning properly.")
+        
+        if ts_motion_detected and not (risk_level == 'high' or risk_level == 'medium'):
+            recommendations.append("🚶 Motion detected in ThingSpeak data. Normal activity detected.")
+            if ts_sound_amplitude < 400:
+                recommendations.append("🤫 Quiet movement detected - could be normal household activity.")
     
     return recommendations
 
@@ -308,9 +333,9 @@ def analyze():
                     data = {
                         'timestamp': feed.get('created_at'),
                         'sound_amplitude': float(feed.get('field1', 0)),
-                        'pattern_id': int(float(feed.get('field2', 0))),
-                        'flame_detected': int(float(feed.get('field3', 0))) == 1,
-                        'motion_detected': int(float(feed.get('field4', 0))) == 1
+                        'pattern_id': int(float(feed.get('field4', 0))),
+                        'flame_detected': int(float(feed.get('field2', 0))) == 1,
+                        'motion_detected': int(float(feed.get('field3', 0))) == 1
                     }
                     logger.info(f"Using sample data: {data}")
         except Exception as e:

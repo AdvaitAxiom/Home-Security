@@ -149,33 +149,62 @@ function updateStatusUI(data) {
     document.getElementById('modelStatus').textContent = data.model_loaded ? 'Loaded' : 'Not Loaded';
     document.getElementById('lastUpdate').textContent = formatDateTime(data.timestamp);
     
-    // Update current sensor values
+    // Update ThingSpeak panel
+    document.getElementById('channelId').textContent = data.thingspeak_channel || 'N/A';
+    document.getElementById('thingspeakLastUpdate').textContent = data.last_data_fetch || 'N/A';
+    
+    // Update current sensor values in both panels
     if (data.last_data) {
+        // Update Status Panel
         document.getElementById('currentSound').textContent = data.last_data.amplitude;
         document.getElementById('currentPattern').textContent = data.last_data.pattern_id;
         document.getElementById('flameStatus').textContent = data.last_data.flame_detected ? 'Detected' : 'None';
         document.getElementById('motionStatus').textContent = data.last_data.motion_detected ? 'Detected' : 'None';
         
-        // Update risk level indicator
-        const riskLevel = data.last_analysis ? data.last_analysis.risk_level : 'Unknown';
-        const riskIndicator = document.getElementById('riskIndicator');
-        riskIndicator.textContent = riskLevel;
+        // Update ThingSpeak Data Panel
+        document.getElementById('tsSound').textContent = data.last_data.amplitude;
+        document.getElementById('tsPattern').textContent = data.last_data.pattern_id;
+        document.getElementById('tsFlame').textContent = data.last_data.flame_detected ? 'Yes' : 'No';
+        document.getElementById('tsMotion').textContent = data.last_data.motion_detected ? 'Yes' : 'No';
         
-        // Set color based on risk level
-        riskIndicator.className = 'risk-indicator';
-        if (riskLevel === 'high') {
-            riskIndicator.classList.add('high-risk');
-        } else if (riskLevel === 'medium') {
-            riskIndicator.classList.add('medium-risk');
-        } else if (riskLevel === 'low') {
-            riskIndicator.classList.add('low-risk');
-        } else if (riskLevel === 'safe') {
-            riskIndicator.classList.add('safe');
+        // Update AI Prediction section
+        if (data.last_analysis) {
+            document.getElementById('aiSoundType').textContent = data.last_analysis.sound_type;
+            document.getElementById('aiConfidence').textContent = 
+                (data.last_analysis.confidence * 100).toFixed(1) + '%';
+            
+            // Update risk level indicators
+            const riskLevel = data.last_analysis.risk_level;
+            
+            // Update in Status Panel
+            const riskIndicator = document.getElementById('riskIndicator');
+            riskIndicator.textContent = riskLevel;
+            
+            // Update in AI Prediction Panel
+            const aiRisk = document.getElementById('aiRisk');
+            aiRisk.textContent = riskLevel;
+            
+            // Set color based on risk level for both indicators
+            riskIndicator.className = 'risk-indicator';
+            aiRisk.className = 'prediction-value risk-indicator';
+            
+            if (riskLevel === 'high') {
+                riskIndicator.classList.add('high-risk');
+                aiRisk.classList.add('high-risk');
+            } else if (riskLevel === 'medium') {
+                riskIndicator.classList.add('medium-risk');
+                aiRisk.classList.add('medium-risk');
+            } else if (riskLevel === 'low') {
+                riskIndicator.classList.add('low-risk');
+                aiRisk.classList.add('low-risk');
+            } else if (riskLevel === 'safe') {
+                riskIndicator.classList.add('safe');
+                aiRisk.classList.add('safe');
+            }
+            
+            // Update sound type in Status Panel
+            document.getElementById('soundType').textContent = data.last_analysis.sound_type;
         }
-        
-        // Update sound type
-        document.getElementById('soundType').textContent = 
-            data.last_analysis ? data.last_analysis.sound_type : 'Unknown';
     }
     
     // Show any recommendations
@@ -183,12 +212,29 @@ function updateStatusUI(data) {
         const recsContainer = document.getElementById('recommendations');
         recsContainer.innerHTML = '';
         
-        data.last_analysis.recommendations.forEach(rec => {
+        if (data.last_analysis.recommendations.length === 0) {
             const recItem = document.createElement('div');
             recItem.className = 'recommendation-item';
-            recItem.textContent = rec;
+            recItem.textContent = 'No recommendations available based on current ThingSpeak data';
             recsContainer.appendChild(recItem);
-        });
+        } else {
+            data.last_analysis.recommendations.forEach(rec => {
+                const recItem = document.createElement('div');
+                recItem.className = 'recommendation-item';
+                
+                // Apply special classes based on content
+                if (rec.includes('⚠️')) {
+                    recItem.classList.add('warning-rec');
+                } else if (rec.includes('🚨') || rec.includes('🆘')) {
+                    recItem.classList.add('critical-rec');
+                } else if (rec.includes('✅')) {
+                    recItem.classList.add('safe-rec');
+                }
+                
+                recItem.textContent = rec;
+                recsContainer.appendChild(recItem);
+            });
+        }
     }
 }
 
